@@ -1,0 +1,29 @@
+{
+    "method": "benchmark_generation",
+    "export": {
+        "source": "local_file"
+    },
+    "evidence_mode": "heuristic",
+    "noise_generator": {
+        "provider": "mock",
+        "seed": 42,
+        "temperature": 0.0,
+        "max_tokens": 256
+    },
+    "noise_plan": {
+        "defaults": {
+            "before": 2,
+            "after": 2
+        },
+        "per_variant": {},
+        "max_total_per_variant": 4
+    },
+    "assembly": {
+        "variants": ["TB", "PED", "HU", "SP"],
+        "include_base": true,
+        "respect_generated_counts": true,
+        "drop_noise": true,
+        "strip_meta_genraw": true,
+        "augment_meta": true
+    }
+}

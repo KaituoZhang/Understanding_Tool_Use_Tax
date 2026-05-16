@@ -1,0 +1,6 @@
+{
+    "dataset": "gsm8k_semantic_distractor",
+    "raw_data_path": "data/gsm8k_semantic_distractor/sample_raw.jsonl",
+    "benchmark_data_path": "data/gsm8k_semantic_distractor/sample_benchmark.jsonl",
+    "variants": ["base", "TB", "PED", "HU", "SP"]
+}

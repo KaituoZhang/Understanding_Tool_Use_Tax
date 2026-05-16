@@ -1,0 +1,11 @@
+{
+    "method": "mechanism_ablation",
+    "data_path": "data/gsm8k_semantic_distractor/sample_benchmark.jsonl",
+    "model": "mock-oracle",
+    "api_base": "mock://local",
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "seed": 42,
+    "sleep": 0.0,
+    "variants": ["base", "TB", "PED", "HU", "SP"]
+}

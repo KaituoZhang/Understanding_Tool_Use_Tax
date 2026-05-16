@@ -1,0 +1,38 @@
+{
+    "method": "benchmark_generation",
+    "export": {
+        "source": "huggingface",
+        "config": "main",
+        "split": "train",
+        "limit": 50
+    },
+    "evidence_mode": "heuristic",
+    "noise_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "seed": 42,
+        "temperature": 0.0,
+        "max_tokens": 400
+    },
+    "noise_plan": {
+        "defaults": {
+            "before": 1,
+            "after": 1
+        },
+        "per_variant": {
+            "TB": {"before": 2, "after": 2},
+            "PED": {"before": 1, "after": 1},
+            "HU": {"before": 1, "after": 1},
+            "SP": {"before": 1, "after": 1}
+        },
+        "max_total_per_variant": 4
+    },
+    "assembly": {
+        "variants": ["TB", "PED", "HU", "SP"],
+        "include_base": true,
+        "respect_generated_counts": true,
+        "drop_noise": true,
+        "strip_meta_genraw": true,
+        "augment_meta": true
+    }
+}

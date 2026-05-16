@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata from this file."
+title: "Tool Tax"
+type: software
+authors:
+  - family-names: "Anonymous"
+license: "MIT"
+version: "0.1.0"
+date-released: 2026-04-25
+keywords:
+  - "tool use"
+  - "chain-of-thought"
+  - "semantic distractors"
+  - "gsm8k"
+  - "mechanism ablation"
+abstract: "Code release for the GSM8K semantic-distractor benchmark and mechanism-ablation pipeline used in the Tool Tax project."
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Anonymous"
+  title: "Understanding the Tool-Use Tax: Explaining the CoT-Tool Gap under Semantic Distractors"
+  journal: "Anonymous ACL submission"
+  year: 2026

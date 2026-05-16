@@ -1,0 +1,2 @@
+{"id": "sample/train/0", "question": "Ava sold 12 bookmarks on Monday and half as many on Tuesday. How many bookmarks did she sell altogether?", "answer": "Ava sold 12/2 = <<12/2=6>>6 bookmarks on Tuesday.\nAva sold 12+6 = <<12+6=18>>18 bookmarks altogether.\n#### 18"}
+{"id": "sample/train/1", "question": "Noah packed 9 boxes of pencils with 4 pencils in each box. Then he gave away 6 pencils. How many pencils does Noah have left?", "answer": "Noah packed 9*4 = <<9*4=36>>36 pencils.\nAfter giving away 6 pencils, Noah had 36-6 = <<36-6=30>>30 pencils left.\n#### 30"}
