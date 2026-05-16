@@ -1,4 +1,4 @@
-# Tool Tax
+# Tool-Using Tax
 
 Code release for the GSM8K slice of the Tool Tax paper.
 
